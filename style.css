@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+  display: flex;
+}
+
+header {
+  background: transparent;
+  text-align: right;
+  padding: 20px;
+  width: 64rem; /* rem, se adapta ao tamnho do pai*/
+}
+
+.logo1 {
+  width: 10.6rem;
+  height: 161px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+a {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 25px;
+  text-decoration: none;
+}
+.button-orange {
+  background-color: orange;
+  color: #000;
+  font-weight: bold;
+  height: 2.8rem;
+  width: 8.5rem;
+  margin: 0 50px 0 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin-left: -10rem;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  color: #fff;
+  padding: 35px;
+  width: 33rem;
+}
+
+h3 {
+  color: #fbb034;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  color: #9a9a9a9a;
+  font-size: 1.25rem;
+  font-weight: 300;
+  width: 25rem;
+}
+
+.blu {
+  width: 28.8rem;
+  height: 27.06rem;
+  display: inline-block;
+  margin-left: -459px;
+  margin-top: 182px;
+  position: absolute;
+  z-index: -1;
+  background-color: #fff;
+  opacity: 0.25;
+  filter: blur(24px);
+}
+.barbeiro {
+  width: 29rem;
+  height: 27rem;
+  display: inline-block;
+  margin-left: 76px;
+  margin-bottom: 87px;
+}
+
+.button-orange2 {
+  margin-top: 4rem;
+  margin-left: 1px;
+}
+
+.button-service {
+  height: 2.8rem;
+  width: 8.5rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.pagamento {
+  width: 90px;
+  height: 50px;
+  margin-top: 20px;
+  text-align: right;
+}
